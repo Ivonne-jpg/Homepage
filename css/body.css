@@ -1,0 +1,67 @@
+html {
+  box-sizing: border-box;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+.body {
+  font-family: "Lora", serif;
+}
+
+.body__darkMode {
+  background-color: black;
+  color: white;
+}
+
+.body__main {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.body__footer {
+  background-color: rgb(22, 73, 71);
+  padding: 25px;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+.body__footerEmail {
+  text-decoration: none;
+  color: white;
+}
+
+.body__footerEmail:hover {
+  color: pink;
+}
+
+
+
+
+
+.buttonDark {
+  margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

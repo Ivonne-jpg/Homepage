@@ -1,0 +1,33 @@
+.navigation {
+    background-color: rgb(22, 73, 71);
+    padding: 8px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.navigation__decoration {
+    list-style: none;
+    padding-left: 0;
+}
+
+.navigation__listItem {
+    margin: 10px;
+}
+
+
+.navigation__element:link {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation__element:visited {
+    color: pink;
+}
+
+.navigation__element:hover {
+    color: blanchedalmond;
+}
+
+.navigation__element:active {
+    color: rgb(5, 255, 247)
+}
